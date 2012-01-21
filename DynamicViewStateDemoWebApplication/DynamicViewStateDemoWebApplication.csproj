@@ -109,6 +109,7 @@
     <Compile Include="BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="DynamicViewState.cs" />
     <Compile Include="SamplePage.aspx.cs">
       <DependentUpon>SamplePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

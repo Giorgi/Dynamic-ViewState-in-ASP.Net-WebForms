@@ -17,7 +17,7 @@ namespace DynamicViewStateDemoWebApplication
             else
             {
                 ViewState.Person = new Person { Name = "Giorgi" };
-                ViewState.loadCount = 0;
+                ViewState["loadCount"] = 0;
                 loadLabel.Text = "Load count: 0";
             }
         }
