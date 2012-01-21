@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
-using System.Diagnostics.Contracts;
 using System.Dynamic;
+using System.Linq;
 using System.Web.UI;
 
-namespace DynamicViewStateDemoWebApplication
+namespace ViewStateEx
 {
-    internal class DynamicViewState : DynamicObject, IStateManager, IDictionary, ICollection, IEnumerable
+    public class DynamicViewState : DynamicObject, IStateManager, IDictionary, ICollection, IEnumerable
     {
         private readonly StateBag viewState;
 
@@ -28,11 +28,18 @@ namespace DynamicViewStateDemoWebApplication
             return true;
         }
 
+        public override System.Collections.Generic.IEnumerable<string> GetDynamicMemberNames()
+        {
+            return Keys.Cast<string>().AsEnumerable();
+        }
+
         public object this[string key]
         {
             get { return viewState[key]; }
             set { viewState[key] = value; }
         }
+
+        #region StateBag Methods
 
         public StateItem Add(string key, object value)
         {
@@ -58,6 +65,8 @@ namespace DynamicViewStateDemoWebApplication
         {
             viewState.SetItemDirty(key, dirty);
         }
+
+        #endregion
 
         #region Implementation of IStateManager
 

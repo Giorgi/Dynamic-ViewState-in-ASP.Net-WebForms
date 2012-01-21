@@ -109,7 +109,6 @@
     <Compile Include="BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DynamicViewState.cs" />
     <Compile Include="SamplePage.aspx.cs">
       <DependentUpon>SamplePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +134,12 @@
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ViewStateEx\ViewStateEx.csproj">
+      <Project>{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}</Project>
+      <Name>ViewStateEx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

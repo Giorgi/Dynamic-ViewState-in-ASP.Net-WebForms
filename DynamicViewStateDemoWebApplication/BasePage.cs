@@ -1,5 +1,7 @@
 ﻿using System.Web.UI;
 
+using ViewStateEx;
+
 namespace DynamicViewStateDemoWebApplication
 {
     public class BasePage : Page

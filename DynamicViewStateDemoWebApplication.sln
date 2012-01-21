@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicViewStateDemoWebApplication", "DynamicViewStateDemoWebApplication\DynamicViewStateDemoWebApplication.csproj", "{294491C2-D6B8-47BA-BDCD-FE749F5AD608}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewStateEx", "ViewStateEx\ViewStateEx.csproj", "{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{294491C2-D6B8-47BA-BDCD-FE749F5AD608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294491C2-D6B8-47BA-BDCD-FE749F5AD608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294491C2-D6B8-47BA-BDCD-FE749F5AD608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DD0A44-3C1B-4C1C-AFB5-3EA048A9CBFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
