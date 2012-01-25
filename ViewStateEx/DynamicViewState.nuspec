@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>Giorgi Dalakishvili</authors>
+    <owners>Giorgi Dalakishvili</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/Giorgi/Dynamic-ViewState-in-ASP.Net-WebForms</projectUrl>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+    <id>DynamicViewState</id>
+    <title>Dynamic ViewState</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Library which allows to access ViewState with dynamic properties.</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2012 Giorgi Dalakishvili</copyright>
+    <tags>ASP.NET</tags>
+  </metadata>
+  <files>
+    <file src="DynamicViewState.cs" target="content\DynamicViewState.cs" />
+  </files>
+</package>

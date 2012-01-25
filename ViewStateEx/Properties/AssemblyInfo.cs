@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ViewStateEx")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DynamicViewState")]
+[assembly: AssemblyDescription("A Library which allows to access ViewState with dynamic properties.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ViewStateEx")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("AboutMyCode")]
+[assembly: AssemblyProduct("DynamicViewState")]
+[assembly: AssemblyCopyright("Copyright © 2012 Giorgi Dalakishvili")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
