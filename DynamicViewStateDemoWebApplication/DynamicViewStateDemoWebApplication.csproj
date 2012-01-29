@@ -106,9 +106,6 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BasePage.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="SamplePage.aspx.cs">
       <DependentUpon>SamplePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

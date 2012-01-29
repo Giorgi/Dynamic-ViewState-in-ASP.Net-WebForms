@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Web.UI;
+
+using ViewStateEx;
 
 namespace DynamicViewStateDemoWebApplication
 {
@@ -10,22 +11,13 @@ namespace DynamicViewStateDemoWebApplication
             if (IsPostBack)
             {
                 ViewState.loadCount++;
-
                 loadLabel.Text = string.Format("Load count: {0}", ViewState.loadCount);
-                //loadLabel.Text = ViewState.Person.Name;
             }
             else
             {
-                ViewState.Person = new Person { Name = "Giorgi" };
                 ViewState["loadCount"] = 0;
                 loadLabel.Text = "Load count: 0";
             }
         }
-    }
-
-    [Serializable]
-    class Person
-    {
-        public string Name { get; set; }
     }
 }

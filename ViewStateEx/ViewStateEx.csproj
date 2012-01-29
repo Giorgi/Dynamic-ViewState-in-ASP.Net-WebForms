@@ -31,10 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="DynamicViewState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
