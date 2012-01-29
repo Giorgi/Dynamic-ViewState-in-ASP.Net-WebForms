@@ -1,6 +1,6 @@
 A sample project showing how to access ViewState data dynamically by using DynamicObject class in the same manner as ViewBag in ASP.NET MVC 3
 
-```     csharp
+``` csharp
 public partial class SamplePage : BasePage
 {
     protected void Page_Load(object sender, EventArgs e)
