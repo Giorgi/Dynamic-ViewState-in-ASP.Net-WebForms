@@ -21,5 +21,5 @@ public partial class SamplePage : BasePage
 ```
 
 Related blog posts:
-http://www.aboutmycode.com/asp-net/dynamic-viewstate-in-asp-net-webforms/
-http://www.aboutmycode.com/asp-net/dynamic-viewstate-in-asp-net-webforms-part-2/
+https://www.giorgi.dev/asp-net/dynamic-viewstate-in-asp-net-webforms/
+https://www.giorgi.dev/asp-net/dynamic-viewstate-in-asp-net-webforms-part-2/
